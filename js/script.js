@@ -4,7 +4,7 @@ function listenerText(){
 var text = document.getElementById("entryinput");
 var displayoutputtext = document.getElementById("textoutput");
   alert("Angie Iturbide: " + text.value);
-  output.innerHTML = text.value;
+  textoutput.innerHTML = text.value;
 }
 var textbox= document.getElementById("entrybutton");
 textbox.addEventListener('click', listenerText);
