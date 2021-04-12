@@ -9,7 +9,7 @@ function init(){
 
 var textbox = document.getElementById("entrybutton");
 
-textbox.addEventListener('click', myFunction);
+textbox.addEventListener('click', listenerandtext);
 
 }
 
