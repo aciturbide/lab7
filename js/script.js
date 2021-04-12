@@ -7,9 +7,9 @@ function init(){
     displayoutputtext.innerHTML = text.value;
 }
 
-var textbox = document.getElementById("entrybutton");
+var a = document.getElementById("entrybutton");
 
-textbox.addEventListener('click', listenerandtext);
+a.addEventListener('click', listenerandtext);
 
 }
 
